@@ -54,7 +54,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hello🥳 {}, my name is {}! 
 You can find my list of available commands with /help.
-i'm a group manager bot. Maintained by @sangramghangale ❤
+i'm a group manager bot. Maintained by @Bfaschat ❤
 
 """
 
@@ -79,7 +79,7 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/200b2cebc65cfbe720dd0.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Supporting him; [𝗖𝗵𝗼𝗰𝗼𝗹𝗮𝘁𝘆𝗤𝘂𝗲𝗲𝗻](t.me/sangramghangale)"""
+Supporting him; [Bfas237Butler](t.me/bfaschat)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -204,15 +204,15 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/maharashtrafriendcircle"),
+                             url=f"https://t.me/bfas237devs"),
                          InlineKeyboardButton(
                              text="📘 Logs",
-                             url="https://t.me/chocolatyqueenvcplayer")
+                             url="https://t.me/bfas237logs")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="☑️ Source code",
-                             url="https://github.com/sangramghangale/QueenRobot")
+                             text="☑️ Channel",
+                             url="https://t.me/bfas237bots")
                      ]]))
     else:
         update.effective_message.reply_text(
